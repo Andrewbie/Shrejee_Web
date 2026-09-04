@@ -20,8 +20,8 @@ const categories = [
     textColor: "#9b2c8c",
     desc: "A comprehensive range of oral solid dosage forms including tablets, film-coated tablets, capsules, and sustained-release formulations covering multiple therapeutic areas.",
     products: [
-      "Amoxicillin 500mg Capsules",
-      "Paracetamol 500mg Tablets",
+      "Amoxicillin 500mG + Clavulenic Acid 125MG TABLET",
+      "Nimesulide 100mg + Paracetamol 325mg Tablet",
       "Azithromycin 250mg Tablets",
       "Metformin 500mg Tablets",
       "Cetirizine 10mg Tablets",
