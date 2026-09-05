@@ -94,17 +94,26 @@ const categories = [
       },
 
       {
-        name: "Azithromycin 250mg Tablets",
-        salt: "Nimesulide 100mg + Paracetamol 325mg Tablet",
-        mrp: "₹120", // Example MRP
-        pack: "10x10" // Example Pack
+        name: "XERORAB 20mg Tablets",
+        salt: "Rabeprazole 20mg Tablet",
+        mrp: "₹180", // Example MRP
+        pack: "10x10",
+        ptr: "₹180",
+        color: "red"
+        // Example Pack
+      },
+      {
+        name: "XERORAB-DSR  Capsules",
+        salt: "Rabeprazole 20mg + Dompeidone 30mg  Capsule",
+        mrp: "₹800", // Example MRP
+        pack: "10x10",
+        ptr: "₹280",
+        color: "red",
+        // Example Pack
       },
 
-      "Metformin 500mg Tablets",
-      "Cetirizine 10mg Tablets",
-      "Omeprazole 20mg Capsules",
-      "Pantoprazole 40mg Tablets",
-      "Vitamin B-Complex Tablets",
+
+
     ],
   },
   {
@@ -118,7 +127,15 @@ const categories = [
     textColor: "#6fa832",
     desc: "Liquid oral formulations for easy administration — syrups, suspensions, and drops suitable for all age groups including pediatric patients.",
     products: [
-      "Paracetamol Suspension",
+      {
+        name: "XORAVITAL SYRUP",
+        salt: "METHYCOBALAMIN 1500MCG+LYCOPENE 2500MCG+THIAMINE 1MG+ RIBOFLAVIN 1MG+ PYRIDOXIN 1MG+ NIACINAMIDE 15MG+ L-LYSINE 30MG+POTASSIUM 50MCG+COPPER 100MCG+ ZINC 22.5 MG+ DPANTHENOL 2.5MG",
+        mrp: "₹140", // Example MRP
+        pack: "200ML",
+        ptr: "₹70",
+        color: "red"
+        // Example Pack
+      },
       "Amoxicillin Dry Syrup",
       "Cough Syrup (Dextromethorphan)",
       "Iron Folic Acid Syrup",
@@ -139,8 +156,14 @@ const categories = [
     textColor: "#7a1f6e",
     desc: "Sterile injectable preparations manufactured under strict aseptic conditions in our GMP-certified facility for reliable clinical outcomes.",
     products: [
-      "Amikacin Injection",
-      "Ceftriaxone Injection",
+      {
+        name: " XORACEF 1GM INJECTION",
+        salt: "Ceftriaxone 1gm injection",
+        mrp: "₹67", // Example MRP
+        pack: "1X1",
+        ptr: "₹26",
+        color: "red"
+      },
       "Ondansetron Injection",
       "Tramadol Injection",
       "Vitamin B12 Injection",
