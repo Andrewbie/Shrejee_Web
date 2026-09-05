@@ -20,9 +20,86 @@ const categories = [
     textColor: "#9b2c8c",
     desc: "A comprehensive range of oral solid dosage forms including tablets, film-coated tablets, capsules, and sustained-release formulations covering multiple therapeutic areas.",
     products: [
-      "XORACLAV-LB 625 TAB -Amoxicillin 500mG + Clavulenic Acid 125MG + Lactobaccilus TABLET",
-      "LIMICA PLUS TAB Nimesulide 100mg + Paracetamol 325mg Tablet",
-      "Azithromycin 250mg Tablets",
+      {
+        name: "XORACLAV-LB 625 TAB",
+        salt: "Amoxicillin 500mG + Clavulenic Acid 125MG + Lactobaccilus TABLET",
+        mrp: "₹265",
+        pack: "1x10",
+        ptr: "₹110",
+        color: "red"
+      },
+      {
+        name: " XORANP TAB",
+        salt: "Nimesulide 100mg + Paracetamol 325mg Tablet",
+        mrp: "₹600", // Example MRP
+        pack: "10x10",
+        ptr: "₹195",
+        color: "red"
+      },
+      {
+        name: " CODFLAM-P TAB",
+        salt: "Aceclofenac 100mg + Paracetamol 325mg Tablet",
+        mrp: "₹610", // Example MRP
+        pack: "10x10",
+        ptr: "₹195",
+        color: "red"
+      },
+      {
+        name: " CODFLAM-SP TAB",
+        salt: "Aceclofenac 100mg + Paracetamol 325mg + Serratiopepetidase 15mg Tablet",
+        mrp: "₹920", // Example MRP
+        pack: "10x10",
+        ptr: "₹350",
+        color: "red"
+      },
+      {
+        name: " XORACET TAB",
+        salt: "Cetrizine 5mg Tablet",
+        mrp: "₹550", // Example MRP
+        pack: "10x10",
+        ptr: "₹130",
+        color: "red"
+      },
+      {
+        name: " PANZIL 40mg TAB",
+        salt: "Pantoprazole 40mg Tablet",
+        mrp: "₹700", // Example MRP
+        pack: "10x10",
+        ptr: "₹200",
+        color: "red"
+      },
+      {
+        name: " XORACEF DT 100mg TAB",
+        salt: "Cefixime 100mg DT Tablet",
+        mrp: "₹1020", // Example MRP
+        pack: "10x10",
+        ptr: "₹510",
+        color: "red"
+      },
+      {
+        name: " XORACEF DT 50mg TAB",
+        salt: "Cefixime 50mg DT Tablet",
+        mrp: "₹600", // Example MRP
+        pack: "10x10",
+        ptr: "₹300",
+        color: "red"
+      },
+      {
+        name: " XORACEF LB 200mg TAB",
+        salt: "Cefixime 200mg + Lactobaccilus Tablet",
+        mrp: "₹1650", // Example MRP
+        pack: "10x10",
+        ptr: "₹700",
+        color: "red"
+      },
+
+      {
+        name: "Azithromycin 250mg Tablets",
+        salt: "Nimesulide 100mg + Paracetamol 325mg Tablet",
+        mrp: "₹120", // Example MRP
+        pack: "10x10" // Example Pack
+      },
+
       "Metformin 500mg Tablets",
       "Cetirizine 10mg Tablets",
       "Omeprazole 20mg Capsules",
@@ -251,24 +328,49 @@ export default function ProductsPage() {
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-4">
-                  {cat.products.map((product, i) => (
-                    <div
-                      key={product}
-                      className="bg-white rounded-xl p-5 border-2 shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-4"
-                      style={{ borderColor: cat.borderColor }}
-                    >
+                  {cat.products.map((product, i) => {
+                    const isObj = typeof product === "object" && product !== null;
+                    const name = isObj ? (product as any).name : product;
+                    const salt = isObj ? (product as any).salt : null;
+                    const pack = isObj ? (product as any).pack : null;
+                    const mrp = isObj ? (product as any).mrp : null;
+                    const ptr = isObj ? (product as any).ptr : null;
+                    const color = isObj ? (product as any).color : null;
+                    if (!name) return null;
+
+                    return (
                       <div
-                        className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0 font-black text-white text-sm"
-                        style={{ background: cat.bgColor }}
+                        key={i}
+                        className="bg-white rounded-xl p-5 border-2 shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-4"
+                        style={{ borderColor: cat.borderColor }}
                       >
-                        {String(i + 1).padStart(2, "0")}
+                        <div
+                          className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0 font-black text-white text-sm"
+                          style={{ background: cat.bgColor }}
+                        >
+                          {String(i + 1).padStart(2, "0")}
+                        </div>
+                        <div className="flex-1">
+                          <p
+                            className={`font-bold text-sm leading-snug ${color ? '' : 'text-gray-900'}`}
+                            style={color ? { color } : undefined}
+                          >
+                            {name}
+                          </p>
+                          {salt && <p className="text-gray-500 text-xs mt-1 leading-tight">{salt}</p>}
+                          {(pack || mrp || ptr) ? (
+                            <div className="flex flex-wrap items-center gap-3 mt-3 text-xs font-bold">
+                              {pack && <span className="bg-gray-100 px-2 py-1 rounded text-gray-600 border border-gray-200">Pack: {pack}</span>}
+                              {mrp && <span className="bg-green-50 text-green-700 px-2 py-1 rounded border border-green-200">MRP: {mrp}</span>}
+                              {ptr && <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded border border-blue-200">PTR: {ptr}</span>}
+                            </div>
+                          ) : (
+                            <p className="text-gray-400 text-xs mt-0.5">Available on request</p>
+                          )}
+                        </div>
                       </div>
-                      <div>
-                        <p className="font-bold text-gray-900 text-sm leading-snug">{product}</p>
-                        <p className="text-gray-400 text-xs mt-0.5">Available on request</p>
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
                 <div
