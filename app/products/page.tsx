@@ -164,11 +164,34 @@ const categories = [
         ptr: "₹26",
         color: "red"
       },
-      "Ondansetron Injection",
-      "Tramadol Injection",
-      "Vitamin B12 Injection",
-      "Dexamethasone Injection",
-      "Metronidazole Infusion",
+      {
+        name: " XORACEF 500mg INJECTION",
+        salt: "Ceftriaxone 500mg injection",
+        mrp: "₹50", // Example MRP
+        pack: "1X1",
+        ptr: "₹23",
+        color: "red"
+      },
+      {
+        name: " XORACEF-S 375mg INJECTION",
+        salt: "Ceftriaxone 250mg + Sulbactum 125mg injection",
+        mrp: "48", // Example MRP
+        pack: "1X1",
+        ptr: "₹23",
+        color: "red"
+      },
+      {
+        name: " XORACEF-S 750mg INJECTION",
+        salt: "Ceftriaxone 5000mg + Sulbactum 250mg injection",
+        mrp: "70", // Example MRP
+        pack: "1X1",
+        ptr: "₹32",
+        color: "red"
+      },
+
+
+
+
       "Ciprofloxacin Infusion",
     ],
   },
