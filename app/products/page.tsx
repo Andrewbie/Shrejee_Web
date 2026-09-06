@@ -188,15 +188,29 @@ const categories = [
         mrp: "₹140", // Example MRP
         pack: "200ML",
         ptr: "₹70",
-        color: "red"
+        color: "red",
         // Example Pack
       },
-      "Amoxicillin Dry Syrup",
-      "Cough Syrup (Dextromethorphan)",
-      "Iron Folic Acid Syrup",
-      "Multivitamin Syrup",
-      "Antacid Suspension",
-      "Cefpodoxime Dry Syrup",
+      {
+        name: "XORAPOD 50mg DRY SYRUP",
+        salt: " Cefpodoxime 50mg ",
+        mrp: "₹95", // Example MRP
+        pack: "1x1",
+        ptr: "₹45",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORACLAV LB 228.5mg DRY SYRUP",
+        salt: " Amoxycillin  200mg + clavulanic acid 28.5mg + lactobaccilus",
+        mrp: "₹103", // Example MRP
+        pack: "1x1",
+        ptr: "₹50",
+        color: "red",
+        // Example Pack
+      },
+
+
       "Ibuprofen Suspension",
     ],
   },
@@ -299,6 +313,30 @@ const categories = [
         ptr: "₹30",
         color: "red"
       },
+      {
+        name: " ACOTEK  EAR DROP ",
+        salt: " Clotrimazole + Lignocaine + Gentamicin + Beclomethasone Dipropionate",
+        mrp: "92", // Example MRP
+        pack: "1x5ml",
+        ptr: "₹28",
+        color: "red"
+      },
+      {
+        name: " IFLOX EYE DROP",
+        salt: " Moxifloxacin Eye Drop",
+        mrp: "85", // Example MRP
+        pack: "1X5ml",
+        ptr: "₹25",
+        color: "red"
+      },
+      {
+        name: " IFLOX-D EYE DROP",
+        salt: " Ofloxacin + Dexamethasone Eye Drop",
+        mrp: "29", // Example MRP
+        pack: "1X5ml",
+        ptr: "₹16",
+        color: "red"
+      },
 
 
 
@@ -340,7 +378,42 @@ const categories = [
     textColor: "#521448",
     desc: "Science-backed nutritional supplements and health products to support overall wellness and preventive healthcare for all age groups.",
     products: [
-      "Omega-3 Fatty Acid Capsules",
+      {
+        name: " XORAVITAL-9G SOFTGEL",
+        salt: "Ginseng,Omega-3 fatty acid,Green tea/ Ginkgo/GAarlic Extract, Antioxidants,Vitamins,Minearala & Trace elements ",
+        mrp: "195", // Example MRP
+        pack: "1X10",
+        ptr: "₹95",
+        color: "red"
+      },
+      {
+        name: " XORAVITAL SOFTGEL",
+        salt: "Multivitamin + Multiminerals + Antioxidants ",
+        mrp: "1050", // Example MRP
+        pack: "10X10",
+        ptr: "₹325",
+        color: "red"
+      },
+      {
+        name: "XORACAL Softgel capsule",
+        salt: "Calcitrol 0.25mcg + Calcium carbonate 500mg + Zinc 7.5 mg",
+        mrp: "₹1200", // Example MRP
+        pack: "10x10",
+        ptr: "₹390",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORAVIT-LB  capsule",
+        salt: "DIGESTIVEENZYME+LACTOBACILLUS+PAPAIN+VIT- B1,B2,B6,NIACINAMIDE,FOLICACID,         CALCIUM-D-PANTHOTHENATE",
+        mrp: "₹700", // Example MRP
+        pack: "10x10",
+        ptr: "₹300",
+        color: "red",
+        // Example Pack
+      },
+
+
 
     ],
   },
