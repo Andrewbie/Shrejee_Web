@@ -111,6 +111,61 @@ const categories = [
         color: "red",
         // Example Pack
       },
+      {
+        name: "PANZIL-DSR  Capsules",
+        salt: "Pantoprazole 40mg + Dompeidone 30mg  Capsule",
+        mrp: "₹120", // Example MRP
+        pack: "10x10",
+        ptr: "₹310",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORAREST Tablet",
+        salt: "Aceclofenac 100mg + Paracetamol 325mg +cetrizine 10mg + Phenylephrine 5mg + caffeine 25mg",
+        mrp: "₹600", // Example MRP
+        pack: "10x10",
+        ptr: "₹290",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORAREST INHALANT Softgel",
+        salt: "Camphor 25mg +Chlorothymol 5 mg  + Eucalyptol 125 mg + Menthol 65mg + Terpenineol 120mg",
+        mrp: "₹700", // Example MRP
+        pack: "10x10",
+        ptr: "₹350",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "REAMLO-AT Tablet",
+        salt: "Amlodipine 5mg + Atenolol 50mg",
+        mrp: "₹340", // Example MRP
+        pack: "10x10",
+        ptr: "₹150",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "COLZI-LC Tablet",
+        salt: "Levocetrizine 5mg + Montelukast 10mg",
+        mrp: "₹950", // Example MRP
+        pack: "10x10",
+        ptr: "₹310",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORACAL Softgel capsule",
+        salt: "Calcitrol 0.25mcg + Calcium carbonate 500mg + Zinc 7.5 mg",
+        mrp: "₹1200", // Example MRP
+        pack: "10x10",
+        ptr: "₹390",
+        color: "red",
+        // Example Pack
+      },
+
 
 
 
@@ -146,8 +201,8 @@ const categories = [
     ],
   },
   {
-    id: "injectables",
-    title: "Injectables",
+    id: "injectables & Eye/Ear Drops",
+    title: "Injectables & Eye/Ear Drops",
     icon: "I",
     count: "60+ Products",
     bgColor: "#7a1f6e",
@@ -188,16 +243,71 @@ const categories = [
         ptr: "₹32",
         color: "red"
       },
+      {
+        name: " XORACEF-S 1.5gm INJECTION",
+        salt: "Ceftriaxone 1000mg + Sulbactum 500mg injection",
+        mrp: "140", // Example MRP
+        pack: "1X1",
+        ptr: "₹40",
+        color: "red"
+      },
+      {
+        name: " XORACEF-TZ 281.5mg INJECTION",
+        salt: "Ceftriaxone 250mg + Tazobactum 31.5mg injection",
+        mrp: "70", // Example MRP
+        pack: "1X1",
+        ptr: "₹27",
+        color: "red"
+      },
+      {
+        name: " XORANERVE-MAX INJECTION",
+        salt: "Vitamin-c 150mg + Vitamin B12 2500mcg + Folic acid 0.7mg + Niacinamid 12mg injection",
+        mrp: "95", // Example MRP
+        pack: "1X1",
+        ptr: "₹35",
+        color: "red"
+      },
+      {
+        name: " XORANERVE INJECTION",
+        salt: "Methycobalamin 1500mcg + Pyridoxine 100mg + Niacinamide 100mg injection",
+        mrp: "95", // Example MRP
+        pack: "1X1",
+        ptr: "₹35",
+        color: "red"
+      },
+      {
+        name: " CODFLAM AQUA 1ML INJECTION",
+        salt: " Diclofenac 25mg injection",
+        mrp: "29", // Example MRP
+        pack: "1X10",
+        ptr: "₹6",
+        color: "red"
+      },
+      {
+        name: " XORAFER INJECTION",
+        salt: " Iron sucrose 100mg injection",
+        mrp: "230", // Example MRP
+        pack: "1X5ml",
+        ptr: "₹48",
+        color: "red"
+      },
+      {
+        name: " XORAMIK 500mg INJECTION",
+        salt: " Amikacin 500mg injection",
+        mrp: "103", // Example MRP
+        pack: "1X2ml",
+        ptr: "₹30",
+        color: "red"
+      },
 
 
 
 
-      "Ciprofloxacin Infusion",
     ],
   },
   {
     id: "ointments",
-    title: "Ointments & Creams",
+    title: "Ointments,Creams & Lotion",
     icon: "O",
     count: "50+ Products",
     bgColor: "#558a28",
@@ -206,14 +316,17 @@ const categories = [
     textColor: "#558a28",
     desc: "Topical formulations including creams, ointments, gels, and lotions for dermatological and musculoskeletal conditions.",
     products: [
-      "Betamethasone Cream",
-      "Clotrimazole Cream",
-      "Diclofenac Gel",
-      "Mupirocin Ointment",
-      "Calamine Lotion",
-      "Ketoconazole Cream",
-      "Hydrocortisone Cream",
-      "Framycetin Ointment",
+      {
+        name: "CODFLAM  ORTHO PAIN OIL ",
+        salt: "Ayurvedic pain oil",
+        mrp: "₹140", // Example MRP
+        pack: "60ml",
+        ptr: "₹60",
+        color: "red",
+        // Example Pack
+      },
+
+
     ],
   },
   {
@@ -228,13 +341,7 @@ const categories = [
     desc: "Science-backed nutritional supplements and health products to support overall wellness and preventive healthcare for all age groups.",
     products: [
       "Omega-3 Fatty Acid Capsules",
-      "Calcium + Vitamin D3 Tablets",
-      "Zinc + Vitamin C Tablets",
-      "Probiotic Capsules",
-      "Biotin Tablets",
-      "Multivitamin Capsules",
-      "Magnesium Tablets",
-      "Coenzyme Q10 Capsules",
+
     ],
   },
   {
@@ -249,13 +356,7 @@ const categories = [
     desc: "Specialized dermatology products for skin care, anti-aging, pigmentation treatment, and various dermatological conditions.",
     products: [
       "Sunscreen SPF 50+ Lotion",
-      "Kojic Acid Cream",
-      "Salicylic Acid Face Wash",
-      "Tretinoin Cream",
-      "Niacinamide Serum",
-      "Adapalene Gel",
-      "Azelaic Acid Cream",
-      "Ceramide Moisturizer",
+
     ],
   },
 ];
