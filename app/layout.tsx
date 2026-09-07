@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://shrejeepharma.vercel.app"),
   title: "Shrejee Pharma | Quality Medicines, Trusted Care",
   description:
-    "Shrejee Pharma is a trusted pharmaceutical company providing quality medicines across India. We offer PCD Pharma Franchise and a wide range of healthcare products.",
+    "Shrejee Pharma is a trusted pharmaceutical company providing quality medicines across India. We offer  Pharma Business opportunities and a wide range of healthcare products.",
   keywords: [
     "Shrejee Pharma",
     "pharma company India",
-    "PCD franchise",
+    "Business Partner",
     "quality medicines",
     "healthcare India",
     "pharmaceutical products",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: "https://shrejeepharma.vercel.app",
     title: "Shrejee Pharma | Quality Medicines, Trusted Care",
     description:
-      "Trusted pharmaceutical company providing quality medicines across India. Explore our PCD Pharma Franchise and extensive product range.",
+      "Trusted pharmaceutical company providing quality medicines across India. Explore our  Pharma  Business  and extensive product range.",
     siteName: "Shrejee Pharma",
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shrejee Pharma | Quality Medicines, Trusted Care",
     description:
-      "Trusted pharmaceutical company providing quality medicines across India. Explore our PCD Pharma Franchise.",
+      "Trusted pharmaceutical company providing quality medicines across India. Explore our Pharma business opportunities.",
     creator: "@shrejeepharma",
     images: ["/globe.svg"], // Replace with a proper og-image
   },

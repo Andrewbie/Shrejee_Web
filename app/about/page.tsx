@@ -12,7 +12,7 @@ const milestones = [
   { year: "2006", event: "Company Founded", desc: "Started with a vision to make quality medicines accessible across India." },
   { year: "2016", event: "GMP Certification", desc: "Partnered with GMP & ISO 9001:2015 certified manufacturing facilities." },
   { year: "2018", event: "100 Products", desc: "Expanded product range to 100+ formulations across categories." },
-  { year: "2020", event: "Pan-India Launch", desc: "Established PCD franchise network across 10+ states." },
+  { year: "2020", event: "Pan-India Launch", desc: "Established Pharma Business network across 10+ states." },
   { year: "2022", event: "ISO Certified", desc: "Received ISO 9001:2015 certification for quality management." },
   { year: "2024", event: "300+ Products", desc: "Crossed 300 products with 500+ franchise partners." },
 ];
@@ -21,7 +21,7 @@ const team = [
   { role: "Managing Director", initials: "MD", desc: "Leading strategy & vision" },
   { role: "Head of Operations", initials: "HO", desc: "Manufacturing & supply chain" },
   { role: "Medical Advisor", initials: "MA", desc: "Product formulations & R&D" },
-  { role: "Sales Director", initials: "SD", desc: "Franchise & distribution" },
+  { role: "Sales Director", initials: "SD", desc: "Business & distribution" },
 ];
 
 export default function AboutPage() {

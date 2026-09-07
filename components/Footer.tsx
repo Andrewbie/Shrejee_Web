@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="bg-[#9b2c8c] py-8">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <div className="text-white font-black text-xl">Interested in PCD Franchise?</div>
+            <div className="text-white font-black text-xl">Interested in Pharma Business?</div>
             <div className="text-purple-100 text-sm mt-1">Contact us today and get monopoly rights in your district</div>
           </div>
           <Link href="/contact" className="bg-white text-[#9b2c8c] px-8 py-3 rounded font-black text-sm uppercase tracking-wide flex items-center gap-2 whitespace-nowrap hover:bg-gray-100">

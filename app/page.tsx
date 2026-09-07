@@ -16,7 +16,7 @@ const ticker = [
   "Pan-India Distribution",
   "300+ Products",
   "Trusted Since 2006",
-  "PCD Franchise Available",
+  "Pharma Business opportunity Available",
   "Third Party Manufacturing",
 ];
 
@@ -25,14 +25,14 @@ const strengths = [
   { icon: Shield, title: "GMP Certified", desc: "Every product manufactured in a GMP-certified plant under strict quality protocols." },
   { icon: FlaskConical, title: "R&D Focused", desc: "Continuous investment in research to develop better, effective formulations." },
   { icon: Globe, title: "Pan-India Reach", desc: "Distribution network covering 15+ states with reliable supply chain management." },
-  { icon: TrendingUp, title: "High Margins", desc: "Attractive profit margins for PCD franchise partners with monopoly rights." },
+  { icon: TrendingUp, title: "High Margins", desc: "Attractive profit margins for Pharma Business partners with monopoly rights." },
   { icon: Award, title: "DCGI Approved", desc: "All products are approved by the Drugs Controller General of India." },
   { icon: Users, title: "Dedicated Support", desc: "On-ground marketing support, visual aids, and training for all partners." },
 ];
 
 const testimonials = [
   { name: "Dr. Rajesh Sharma", role: "Medical Practitioner", city: "Jaipur", quote: "Shrejee Pharma products are of consistently high quality. My patients respond very well to their formulations. Highly recommended.", rating: 5 },
-  { name: "Priya Gupta", role: "PCD Franchise Partner", city: "Lucknow", quote: "The margins are excellent and the support team is very responsive. Running my pharma business has never been this easy.", rating: 5 },
+  { name: "Rakesh pandey", role: "Business Partner", city: "Mumbai", quote: "The margins are excellent and the support team is very responsive. Running my pharma business has never been this easy.", rating: 5 },
   { name: "Sandeep Mehta", role: "Wholesale Distributor", city: "Ahmedabad", quote: "Reliable, timely delivery and genuine certifications. Shrejee Pharma is one of the best companies I have worked with.", rating: 5 },
 ];
 
@@ -140,13 +140,13 @@ export default function HomePage() {
                 Shrejee Pharmaceuticals is an ISO 9001:2015 certified pharmaceutical company headquartered in India. We specialize in manufacturing and marketing a comprehensive range of pharmaceutical formulations including tablets, capsules, syrups, injectables, ointments, and nutraceuticals.
               </p>
               <p className="text-gray-500 leading-relaxed mb-8">
-                With over 20 years of experience in the pharma industry, we have established a strong presence across 15+ states through our robust PCD franchise network and direct marketing operations.
+                With over 20 years of experience in the pharma industry, we have established a strong presence across 15+ states through our robust Pharma Business network and direct marketing operations.
               </p>
               <ul className="space-y-3 mb-10">
                 {[
                   "ISO 9001:2015 certified partner facilities",
                   "300+ high-quality formulations",
-                  "Pan-India PCD franchise network",
+                  "Pan-India Pharma Business network",
                   "Partnered GMP-certified manufacturing facilities",
                   "Dedicated R&D and QC team",
                 ].map((pt) => (
@@ -255,7 +255,7 @@ export default function HomePage() {
             Ready to Start Your<br />Pharma Business?
           </h2>
           <p className="text-purple-100 text-lg max-w-2xl mx-auto mb-10">
-            Join our growing PCD franchise network. Monopoly rights, promotional support, high margins, and a trusted product portfolio — everything you need to succeed.
+            Join our growing Pharma Business network. Monopoly rights, promotional support, high margins, and a trusted product portfolio — everything you need to succeed.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="bg-white text-[#9b2c8c] px-10 py-4 rounded font-black text-sm uppercase tracking-wide hover:bg-gray-100 flex items-center gap-2">

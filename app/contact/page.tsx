@@ -168,7 +168,7 @@ export default function ContactPage() {
                       >
                         <option value="">Select enquiry type</option>
                         <option value="General Enquiry">General Enquiry</option>
-                        <option value="PCD Franchise">PCD Franchise</option>
+                        <option value="Pharma Business">Pharma Business</option>
                         <option value="Product Information">Product Information</option>
                         <option value="Third-Party Manufacturing">Third-Party Manufacturing</option>
                         <option value="Export Enquiry">Export Enquiry</option>
@@ -212,7 +212,7 @@ export default function ContactPage() {
           <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
             <iframe
               src="https://maps.google.com/maps?q=Virar+West,Maharashtra,India&t=&z=14&ie=UTF8&iwloc=&output=embed"
-              width="100%" height="350" style={{border: 0}} allowFullScreen={false}
+              width="100%" height="350" style={{ border: 0 }} allowFullScreen={false}
               loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="w-full"
             ></iframe>
           </div>
