@@ -209,9 +209,44 @@ const categories = [
         color: "red",
         // Example Pack
       },
+      {
+        name: "COLZI-LC  SYRUP",
+        salt: " Levocetrizine 2.5mg + Montelukast 4mg",
+        mrp: "₹115", // Example MRP
+        pack: "1x60ml",
+        ptr: "₹40",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORAREST SYRUP",
+        salt: " Paracetamol 250mg + Phenylehrine 5mg + chlorpheniramine 2mg + Sodium sitrate 60mg + Ammoniun chloride 120mg + Methol 1mg",
+        mrp: "₹115", // Example MRP
+        pack: "1x60ml",
+        ptr: "₹40",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORAFLOX-M SYRUP",
+        salt: " Ofloxacin 50mg + Metronidazole 120mg + simethicone 10mg",
+        mrp: "₹91", // Example MRP
+        pack: "1x60ml",
+        ptr: "₹35",
+        color: "red",
+        // Example Pack
+      },
+      {
+        name: "XORACOF-DX SYRUP",
+        salt: " Dextromethorphen 15mg + Chloepheniramine 2.5 mg + Phenylephrine 5mg",
+        mrp: "₹120", // Example MRP
+        pack: "1x1000ml",
+        ptr: "₹45",
+        color: "red",
+        // Example Pack
+      },
 
 
-      "Ibuprofen Suspension",
     ],
   },
   {
@@ -337,6 +372,15 @@ const categories = [
         ptr: "₹16",
         color: "red"
       },
+      {
+        name: " PANZIL 40mg INJECTION",
+        salt: " Pantoprazole 40mg",
+        mrp: "70", // Example MRP
+        pack: "1X1",
+        ptr: "₹14",
+        color: "red"
+      },
+
 
 
 
